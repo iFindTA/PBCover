@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBCover"
-  s.version      = "1.1.0"
+  s.version      = "1.2.0"
   s.summary      = "transition cover module for iOS development."
   s.description  = "transition cover module for FLK.Inc iOS Developers, such as sign in/sign up etc."
 
@@ -26,5 +26,4 @@ Pod::Spec.new do |s|
   
   #s.dependency "JSONKit", "~> 1.4"
   s.dependency 'Masonry'
-  s.dependency 'FLKBaseClasses'
 end
