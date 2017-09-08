@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBCover"
-  s.version      = "1.2.0"
+  s.version      = "1.3.0"
   s.summary      = "transition cover module for iOS development."
   s.description  = "transition cover module for FLK.Inc iOS Developers, such as sign in/sign up etc."
 
@@ -25,5 +25,5 @@ Pod::Spec.new do |s|
   #s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/CommonCrypto,$(SRCROOT)/FLKNetService/Core","CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES" =>"YES","ONLY_ACTIVE_ARCH" => "NO"}
   
   #s.dependency "JSONKit", "~> 1.4"
-  s.dependency 'Masonry'
+  s.dependency 'Masonry', "~> 1.0.2"
 end
