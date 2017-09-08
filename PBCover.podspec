@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "PBCover"
-  s.version      = "1.0.0"
+  s.version      = "1.1.0"
   s.summary      = "transition cover module for iOS development."
   s.description  = "transition cover module for FLK.Inc iOS Developers, such as sign in/sign up etc."
 
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author             = { "nanhujiaju" => "hujiaju@hzflk.com" }
 
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "http://192.168.10.99/iOSKits/CoverPro.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/iFindTA/PBCover.git", :tag => "#{s.version}" }
   s.source_files  = "PBCover/Pod/Classes/*.{h,m}"
   s.public_header_files = "PBCover/Pod/Classes/*.h"
 
